@@ -1,10 +1,24 @@
 # redirect from Netlify to custom domain
 
+http://corax.netlify.app/* https://www.corax.org/:splat 301!
 https://corax.netlify.app/* https://www.corax.org/:splat 301!
 
 # standard redirect for webcards
 
 /webcards/index.html /webcards/wc_toc.html 301
+
+# redirect site icons
+
+/android-chrome-192x192.png /_assets/siteicons/android-chrome-192x192.png 301
+/android-chrome-512x512.png /_assets/siteicons/android-chrome-512x512.png 301
+/apple-touch-icon.png /_assets/siteicons/apple-touch-icon.png 301
+/browserconfig.xml /_assets/siteicons/browserconfig.xml 301
+/favicon-16x16.png /_assets/siteicons/favicon-16x16.png 301
+/favicon-32x32.png /_assets/siteicons/favicon-32x32.png 301
+/favicon.ico /_assets/siteicons/favicon.ico 301
+/mstile-150x150.png /_assets/siteicons/mstile-150x150.png 301
+/safari-pinned-tab.svg /_assets/siteicons/safari-pinned-tab.svg 301
+/site.webmanifest /_assets/siteicons/site.webmanifest 301
 
 # website reorganization
 
