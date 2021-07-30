@@ -1,6 +1,5 @@
-# redirect from Netlify to custom domain
+# redirect from subdomain to custom domain
 
-http://corax.netlify.app/* https://www.corax.org/:splat 301!
 https://corax.netlify.app/* https://www.corax.org/:splat 301!
 
 # standard redirect for webcards
