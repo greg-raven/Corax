@@ -4,7 +4,7 @@ https://corax.netlify.app/* https://www.corax.org/:splat 301!
 
 # standard redirect for webcards
 
-/webcards/index.html /webcards/wc_toc.html 301
+https://webcards.corax.org/* https://webcards.corax.org/:splat 301
 
 # redirect site icons
 
