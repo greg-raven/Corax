@@ -47,4 +47,4 @@ Language:  English
 Doctype: HTML5
 Standards: HTML5, CSS3
 Components: Bootstrap
-Software: BBEdit, Pixelmator Pro, CodeKit
+Software: BBEdit, Pixelmator Pro, GitHub Desktop (and GitHub), Scrutiny 9
