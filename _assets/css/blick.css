@@ -1,1 +1,50 @@
-figure { margin: 1em 0 } footer { padding-bottom: 1em } .lead { padding-left: 1em } .pdf { width: 100%; height: 600px } .pull-left { padding-right: 1em } .pull-right { padding-left: 1em } .scribd_iframe_embed { height: 600px; width: 100% } @media (min-width: 992px) { body { font-size: 17.5px; font-family: Georgia, serif } h1 { font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 40px } h2, h3, h4, h5, h6, th { font-family: "Trebuchet MS", Arial, Helvetica, sans-serif } }
+figure {
+  margin: 1em 0;
+}
+
+footer {
+  padding-bottom: 1em;
+}
+
+.lead {
+  padding-left: 1em;
+}
+
+.pdf {
+  width: 100%;
+  height: 600px;
+}
+
+.pull-left {
+  padding-right: 1em;
+}
+
+.pull-right {
+  padding-left: 1em;
+}
+
+.scribd_iframe_embed {
+  height: 600px;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 17.5px;
+    font-family: Georgia, serif;
+  }
+
+  h1 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  th {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  }
+}
