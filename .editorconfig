@@ -23,7 +23,5 @@ make-backup-files = 0
 
 # BBEdit-specific preferences
 
-x-font-name = "Menlo"
-x-font-size = 18
 x-soft-wrap-text = true
 x-soft-wrap-mode = WindowWidth
