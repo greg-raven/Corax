@@ -3,7 +3,7 @@
 namespace Hp;
 
 //  PROJECT HONEY POT ADDRESS DISTRIBUTION SCRIPT
-//  For more information visit: http://www.projecthoneypot.org/
+//  For more information visit: https://www.projecthoneypot.org/
 //  Copyright (C) 2004-2019, Unspam Technologies, Inc.
 //
 //  This program is free software; you can redistribute it and/or modify
@@ -26,7 +26,7 @@ namespace Hp;
 //  specified under the Terms of Service Use. These terms are available
 //  here:
 //
-//  http://www.projecthoneypot.org/terms_of_service_use.php
+//  https://www.projecthoneypot.org/terms_of_service_use.php
 //
 //  The required modification to disconnect the software from the
 //  Project Honey Pot Service is explained in the comments below. To find the
@@ -144,7 +144,7 @@ class ScriptClient implements HttpClient
                 "Unable to contact the Server. Are outbound connections disabled? " .
                 "(If a proxy is required for outbound traffic, you may configure " .
                 "the honey pot to use a proxy. For instructions, visit " .
-                "http://www.projecthoneypot.org/settings_help.php)",
+                "https://www.projecthoneypot.org/settings_help.php)",
                 E_USER_ERROR
             );
         }
@@ -642,7 +642,7 @@ class Script
             "Pragma: no-cache",
         ];
 
-        $subResponse = $this->client->request("POST", "http://$host:$port/$script", $headers, $data);
+        $subResponse = $this->client->request("POST", "https://$host:$port/$script", $headers, $data);
         $data = $this->transcriber->transcribe($subResponse->getLines());
         $response = new TextResponse($this->template->render($data));
 
