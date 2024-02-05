@@ -1,6 +1,6 @@
 # redirect from subdomain to custom domain
 
-https://corax.netlify.app/* https://www.corax.org/:splat 301!
+https://greg-raven.GitHub.io/Corax/* https://www.corax.org/:splat 301!
 
 # standard redirect for webcards
 
