@@ -1,11 +1,3 @@
-# redirect from subdomain to custom domain
-
-https://greg-raven.GitHub.io/Corax/* https://www.corax.org/:splat 301!
-
-# standard redirect for webcards
-
-https://webcards.corax.org/* https://webcards.corax.org/:splat 301
-
 # redirect site icons
 
 /android-chrome-192x192.png /assets/siteicons/android-chrome-192x192.png 301
