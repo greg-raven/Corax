@@ -5,7 +5,10 @@
 
 # note: each of these fields is OPTIONAL
 [dev]
-  port = 8888 # The port that the netlify dev will be accessible on
+  port = 9999 # The port that the netlify dev will be accessible on
   publish = "." # The path to your static content folder
   autoLaunch = true # a Boolean value that determines if Netlify Dev launches the local server address in your browser
   framework = "#static"
+
+[context.production]
+  publish = "." # The path to your static content folder
